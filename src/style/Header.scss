@@ -1,9 +1,9 @@
 .Header {
-  background: #663399;
+  background: #ec1c11;
   color: white;
   border-bottom: 3px solid white;
   box-shadow: 0 16px 0 black;
-  transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
+  
   margin: 50px;
 }
 
@@ -19,7 +19,7 @@
   font-style: italic;
 
   a {
-    font-size: 6em;
+    font-size: 4em;
     font-weight: bold;
     position: relative;
     color: white;
@@ -42,14 +42,14 @@
     &:after {
       left: 3px;
       text-shadow: -2px 0 red;
-      animation: noise-anim 2s infinite linear alternate-reverse;
+      
     }
 
     &:before {
       content:attr(data-text);
       left: -3px;
       text-shadow: 2px 0 blue;
-      animation: noise-anim-2 3s infinite linear alternate-reverse;
+      
     }
   }
 }
